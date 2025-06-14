@@ -1,14 +1,16 @@
- const numHearts = 50;
+ const numHearts = 20;
 
     for (let i = 0; i < numHearts; i++) {
       const heart = document.createElement('div');
       heart.classList.add('heart');
       heart.style.left = `${Math.random() * window.innerWidth}px`;
       heart.style.top = `${Math.random() * window.innerHeight}px`;
-      heart.style.animationDuration = `${5 + Math.random() * 5}s`;
+      heart.style.animationDuration = `${10 + Math.random() * 10}s`;
       document.body.appendChild(heart);
     }
 
+ 
+    
 
 // Altere para a data que vocês começaram, por exemplo:
 

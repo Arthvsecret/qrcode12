@@ -19,7 +19,7 @@ body{
   justify-content: center;
   align-items: center;
   padding-top: 5vh ;
-  
+  position: relative;
   
 }
 
@@ -224,22 +224,25 @@ body{
   }
 }
 
-img{
-    width: 80%;
+.us{
+    width: 100%;
     border-radius: 5px;
     position: relative;
     display: flex;
-    top: 20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
     z-index: -1;
+    padding-top: 40px;
+    
+    
 }
 
-html, body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 100%;
-    
-    }
+.us img{
+   width: 60%; 
+   border-radius: 20px;
+   border: 1px solid #ffffff;
+}
 
     .heart {
       position: absolute;
@@ -285,15 +288,17 @@ html, body {
         font-size: medium;
         top: 5px;
         position: relative;
+        font-weight: bold;
         padding-top: 40px;
-        color: white;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: rgb(235, 144, 243);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     #loveTime {
         padding: 20px;
         top: 10px;
-        left: 10px;
+        text-align: center;
         color: white;
         font-size: 12px;
     }
@@ -301,4 +306,8 @@ html, body {
     #tempoPassado{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         background-color: #191414;
+    }
+
+    source{
+        background-color: #191414; 
     }
